@@ -1,12 +1,9 @@
 import React from "react";
 import style from "../styleObject";
 import Box from "@mui/material/Box";
-import { styled } from "styled-components";
-import styleToCss from "style-object-to-css-string";
+import { styled } from "@mui/material/styles";
 
-const StyledBox = styled(Box)`
-  ${styleToCss(style)}
-`;
+const StyledBox = styled(Box)(style);
 
 const Component = function ({ children }) {
   return <StyledBox>{children}</StyledBox>;

@@ -16,6 +16,10 @@ const tests = [
     file: "StyledComponent",
   },
   {
+    label: "styled component mui",
+    file: "StyledComponentMui",
+  },
+  {
     label: "sx props",
     file: "Sx",
   },
